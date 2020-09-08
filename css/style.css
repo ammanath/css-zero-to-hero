@@ -1,12 +1,20 @@
 body{
     background:rgba(79, 145, 175,0.4);
+    font-family: 'Montserrat', sans-serif;
 }
 #title{
     color:rgb(0, 99,70);
+    font-family: 'Ruluko', sans-serif;
 }
 
 .subtitle{
     color:rgb(133,66,50);
+    font-family: 'Ruluko', sans-serif;
+}
+
+.para-text{
+    text-align: justify;
+    font-style: normal;
 }
 
 #service-image{
