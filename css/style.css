@@ -22,3 +22,12 @@ body{
     width:70%;
     background:radial-gradient(steelblue, rgb(133,66,255),rgba(133,66,255,0));
 }
+
+.span-class{
+    font-style: italic;
+    font-weight: 200;
+}
+
+#about-me{
+    border:10p rgb(100,30,215) solid;
+}
