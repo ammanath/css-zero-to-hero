@@ -12,6 +12,9 @@ body{
     font-family: 'Ruluko', sans-serif;
 }
 
+.link{
+}
+
 .para-text{
     text-align: justify;
     font-style: normal;
@@ -21,13 +24,23 @@ body{
     height:400px;
     width:70%;
     background:radial-gradient(steelblue, rgb(133,66,255),rgba(133,66,255,0));
+    border:5px solid black;
 }
 
-.span-class{
+.italics{
     font-style: italic;
     font-weight: 200;
 }
 
 #about-me{
-    border:10p rgb(100,30,215) solid;
+    height: 300px;
+    width: 60%;
+    border:4pt solid rgb(200,130,255) ;
+    padding:80px 5px;
+    margin-left: 15px;
+    float: right;
+}
+
+.site-table{
+    display:inline-block;
 }
