@@ -38,9 +38,29 @@ body{
     border:4pt solid rgb(200,130,255) ;
     padding:80px 5px;
     margin-left: 15px;
-    float: right;
+    
 }
 
 .site-table{
     display:inline-block;
+}
+
+.container{
+    background-color: antiquewhite;
+    margin:10px;
+    height:300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-item{
+    background: green;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    
+    width:70px;
+    line-height: 50px;
+    margin:10px;
 }
