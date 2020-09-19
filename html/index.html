@@ -36,11 +36,17 @@ tempor incididunt ut labore et dolore magna aliqua.</p>
 </div>
 
 <div class="grid-container" style="margin:10px;">
-	<div class="grid-item" style="background:lightseagreen;">1</div>
+	<div class="grid-item" 
+	style="background:lightseagreen;
+	/* grid-column:1/span 2;
+	grid-row:1/span 2; */
+	grid-area: 1/1/span 2/span 2;
+	">1</div>
 	<div class="grid-item" style="background:palegoldenrod;">2</div>
 	<div class="grid-item" style="background:palegreen;">3</div>
 	<div class="grid-item" style="background:lightsalmon;">4</div>
 	<div class="grid-item" style="background:palevioletred;">5</div>
+	<div class="grid-item" style="background:paleturquoise;">6</div>
 </div>
 
 <img id="about-me" src="../img/img-1.jpg">
