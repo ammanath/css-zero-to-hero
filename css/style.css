@@ -104,7 +104,7 @@ body{
     color:white;
     background:rgb(89,150,255);
     /* property to be transitioned like 'all' or 'background' , duration , transition style like 'ease' or 'linear' or 'ease-in-out' , delay*/
-    transition: all, 3s, ease-in-out, 1s;
+    transition: background,padding , 3s, ease-in-out, 1s;
 }
 
 .submit-button:hover{
